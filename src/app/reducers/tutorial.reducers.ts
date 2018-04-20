@@ -2,7 +2,7 @@ import { Action } from '@ngrx/store'
 import { Tutorial } from './../models/tutorial.model'
 import * as TutorialActions from './../actions/tutorial.actions'
 
-const intialState: Tutorial = {
+const initialState: Tutorial = {
   name: 'Initial Tutorial',
   url: 'https://google.com'
 }
